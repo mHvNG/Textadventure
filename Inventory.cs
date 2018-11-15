@@ -9,7 +9,6 @@ namespace ZuulCS {
     internal List<Item> Items { get => items; }
 
     private int maxSpace;
-    private int openSpace;
 
     public Inventory(int max) {
       items = new List<Item>();

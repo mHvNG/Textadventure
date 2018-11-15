@@ -8,8 +8,6 @@ namespace ZuulCS {
 		private Parser parser;
 		private Player player;
 
-		private Key key;
-
 		public Game () {
 			parser = new Parser();
 			player = new Player();

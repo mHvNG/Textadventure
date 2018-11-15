@@ -51,7 +51,6 @@ namespace ZuulCS {
         // Try to leave current room.
         Room nextRoom = currentRoom.getExit(direction);
         // Variable for room
-        Room room = new Room("desc");
 
         if (currentRoom.isLocked == true) {
           Console.WriteLine("Door is locked. You need a key to open the door");
